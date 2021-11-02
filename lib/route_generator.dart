@@ -18,7 +18,7 @@ class RouteGenerator {
       case WidgetDetailPage.path:
         return MaterialPageRoute(
           settings: settings,
-          builder: (_) => const WidgetDetailPage(),
+          builder: (_) => WidgetDetailPage(),
         );
       default:
         throw const RouteException('Route not found');

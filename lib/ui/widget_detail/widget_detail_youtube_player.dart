@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-class YoutubePlayerWidget extends StatelessWidget {
+class WidgetDetailYoutubePlayer extends StatelessWidget {
   final String videoId;
-  const YoutubePlayerWidget(this.videoId, {Key? key}) : super(key: key);
+  const WidgetDetailYoutubePlayer(this.videoId, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

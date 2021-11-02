@@ -15,8 +15,8 @@ class WidgetListTile extends StatelessWidget {
     return ListTile(
       leading:
           Image.network('https://i.ytimg.com/vi/${widget.videoId}/default.jpg'),
-      title: Text(widget.title),
-      subtitle: Text(widget.description),
+      title: Text('#${widget.id} ${widget.title}'),
+      subtitle: Text(widget.subtitle),
       onTap: () => Navigator.pushNamed(context, WidgetDetailPage.path,
           arguments: WidgetDetailArguments(widget.id, widget.title)),
     );

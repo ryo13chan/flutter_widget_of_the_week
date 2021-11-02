@@ -19,9 +19,9 @@ class WidgetListViewModel extends ChangeNotifier {
     final List<FlutterWidget> widgets = jsonResponse.map((data) {
       final String id = data['id'];
       final String title = data['title'];
-      final String description = data['description'];
+      final String subtitle = data['subtitle'];
       final String videoId = data['videoId'];
-      return FlutterWidget(id, title, description, videoId);
+      return FlutterWidget(id, title, subtitle, videoId, "", "");
     }).toList();
 
     this.widgets = widgets;
