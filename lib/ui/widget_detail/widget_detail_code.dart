@@ -2,7 +2,11 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:flutter_highlight/flutter_highlight.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:flutter_widget_of_the_week/app_theme.dart';
 
 class WidgetDetailCode extends StatelessWidget {
   final String code;
@@ -10,12 +14,13 @@ class WidgetDetailCode extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Markdown(
-        selectable: true,
-        styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-            .copyWith(textScaleFactor: 1),
-        data: code,
+    return HighlightView(
+      code.replaceAll('`', ''),
+      language: 'dart',
+      theme: Provider.of<AppTheme>(context).buildHighlightTheme(),
+      padding: const EdgeInsets.all(12),
+      textStyle: const TextStyle(
+        fontFamily: 'My awesome monospace font',
       ),
     );
   }

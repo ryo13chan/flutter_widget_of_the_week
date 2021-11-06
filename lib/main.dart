@@ -1,13 +1,20 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Package imports:
+import 'package:provider/provider.dart';
+
 // Project imports:
+import 'package:flutter_widget_of_the_week/app_theme.dart';
 import 'package:flutter_widget_of_the_week/route_generator.dart';
-import 'package:flutter_widget_of_the_week/ui/widget_detail/widget_detail_page.dart';
-import 'package:flutter_widget_of_the_week/ui/widget_list/widget_list_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => AppTheme(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -17,9 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Widget of the Week',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: Provider.of<AppTheme>(context).buildTheme(),
       initialRoute: RouteGenerator.initialRoute,
       onGenerateRoute: RouteGenerator.generateRoute,
     );

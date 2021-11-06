@@ -12,11 +12,14 @@ class WidgetDetailCopyButton extends StatelessWidget {
     return OutlinedButton(
       child: const Text('コピー'),
       style: OutlinedButton.styleFrom(
-        primary: Colors.black,
+        primary: Theme.of(context).textTheme.bodyText1!.color,
+        // primary: Colors.black,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
         ),
-        side: const BorderSide(),
+        side: BorderSide(
+          color: Theme.of(context).textTheme.bodyText1!.color!,
+        ),
       ),
       onPressed: () => onPress(text),
     );

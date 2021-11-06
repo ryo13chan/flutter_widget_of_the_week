@@ -13,7 +13,7 @@ class WidgetListViewModel extends ChangeNotifier {
 
   Future<void> fetchWidgetData() async {
     String jsonData =
-        await rootBundle.loadString('json//flutter_widget_of_the_week.json');
+        await rootBundle.loadString('json/flutter_widget_of_the_week.json');
     final List jsonResponse = json.decode(jsonData);
 
     final List<FlutterWidget> widgets = jsonResponse.map((data) {

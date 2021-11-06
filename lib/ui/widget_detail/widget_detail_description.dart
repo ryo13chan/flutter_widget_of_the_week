@@ -2,7 +2,11 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:markdown_widget/markdown_widget.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:flutter_widget_of_the_week/app_theme.dart';
 
 class WidgetDetailDescription extends StatelessWidget {
   final String description;
@@ -10,12 +14,15 @@ class WidgetDetailDescription extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Markdown(
-        selectable: true,
-        styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-            .copyWith(textScaleFactor: 1),
-        data: description,
+    return Padding(
+      padding: const EdgeInsets.all(12.0),
+      child: Column(
+        children: MarkdownGenerator(
+          data: description,
+          styleConfig: StyleConfig(
+            markdownTheme: Provider.of<AppTheme>(context).buildMarkdownTheme(),
+          ),
+        ).widgets!,
       ),
     );
   }

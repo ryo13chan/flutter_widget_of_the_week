@@ -17,9 +17,10 @@ class WidgetDetailTabItem extends StatelessWidget {
             bottom: 5,
           ),
           decoration: tab.key == selectedTab
-              ? const BoxDecoration(
+              ? BoxDecoration(
                   border: Border(
                     bottom: BorderSide(
+                      color: Theme.of(context).textTheme.bodyText1!.color!,
                       width: 1.0,
                     ),
                   ),

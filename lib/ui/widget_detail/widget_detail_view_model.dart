@@ -11,7 +11,7 @@ import 'package:flutter_widget_of_the_week/ui/widget_detail/widget_detail_tab_it
 
 class WidgetDetailViewModel extends ChangeNotifier {
   WidgetDetailViewModel(this.id);
-  String? id;
+  String? id = "0";
 
   FlutterWidget? widget;
   FlutterWidget? previousWidget;
