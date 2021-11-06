@@ -21,7 +21,7 @@ jobs:
           flutter pub get
 
       - name: Build
-        run: flutter build web --base-href="/flutter_widget_of_the_week/"
+        run: flutter build web --base-href="/flutter_widget_of_the_week/" --web-renderer html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.8.0
