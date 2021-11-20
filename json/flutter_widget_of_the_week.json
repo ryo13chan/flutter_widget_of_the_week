@@ -1,5 +1,15 @@
 [
-  { "id": "0", "title": "Introducing Widget of the Week!", "subtitle": "概要", "videoId": "b_sQ9bMltGU"},
-  { "id": "1", "title": "SafeArea", "subtitle": "概要", "videoId": "lkF0TQJO0bA"},
-  { "id": "2", "title": "Introducing Widget of the Week!", "subtitle": "概要", "videoId": "b_sQ9bMltGU"}
+  { "id": "0", "title": "Introducing Widget of the Week!", "subtitle": "Widget of the Weekの紹介", "videoId": "b_sQ9bMltGU"},
+  { "id": "1", "title": "SafeArea", "subtitle": "ウィジェットを適切な画面幅に収める", "videoId": "lkF0TQJO0bA"},
+  { "id": "2", "title": "Expanded", "subtitle": "ウィジェットを引き延ばして隙間を埋める", "videoId": "_rnZaagadyo"},
+  { "id": "3", "title": "Wrap", "subtitle": "はみ出したウィジェットを折り返す", "videoId": "z5iw2SeFx2M"},
+  { "id": "4", "title": "AnimatedContainer", "subtitle": "アニメーション付きコンテナ", "videoId": "yI-8QHpGIP4"},
+  { "id": "5", "title": "Opacity", "subtitle": "ウィジェットの透過", "videoId": "9hltevOHQBw"},
+  { "id": "6", "title": "FutureBuilder", "subtitle": "ウィジェットを非同期に生成", "videoId": "ek8ZPdWj4Qo"},
+  { "id": "7", "title": "FadeTransition", "subtitle": "ウィジェットにフェードを加える", "videoId": "rLwWVbv3xDQ"},
+  { "id": "8", "title": "FloatingActionButton(FAB)", "subtitle": "画面右下にボタンを表示", "videoId": "2uaoEDOgk_I"},
+  { "id": "9", "title": "PageView", "subtitle": "スワイプで画面遷移", "videoId": "J1gE9xvph-A"},
+  { "id": "10", "title": "Table", "subtitle": "テーブル", "videoId": "_lbE0wsVZSw"},
+  { "id": "11", "title": "", "subtitle": "", "videoId": "R9C5KMJKluE"},
+  { "id": "12", "title": "", "subtitle": "", "videoId": ""}
 ]
