@@ -1,5 +1,24 @@
 [
-  { "id": "0", "title": "Introducing Widget of the Week!", "subtitle": "概要", "videoId": "b_sQ9bMltGU"},
-  { "id": "1", "title": "SafeArea", "subtitle": "概要", "videoId": "lkF0TQJO0bA"},
-  { "id": "2", "title": "Introducing Widget of the Week!", "subtitle": "概要", "videoId": "b_sQ9bMltGU"}
+  { "id": "0", "title": "Introducing Widget of the Week!", "subtitle": "Widget of the Weekの紹介", "videoId": "b_sQ9bMltGU"},
+  { "id": "1", "title": "SafeArea", "subtitle": "ウィジェットを適切な画面幅に収める", "videoId": "lkF0TQJO0bA"},
+  { "id": "2", "title": "Expanded", "subtitle": "ウィジェットを引き延ばして隙間を埋める", "videoId": "_rnZaagadyo"},
+  { "id": "3", "title": "Wrap", "subtitle": "はみ出したウィジェットを折り返す", "videoId": "z5iw2SeFx2M"},
+  { "id": "4", "title": "AnimatedContainer", "subtitle": "アニメーション付きコンテナ", "videoId": "yI-8QHpGIP4"},
+  { "id": "5", "title": "Opacity", "subtitle": "ウィジェットの透過", "videoId": "9hltevOHQBw"},
+  { "id": "6", "title": "FutureBuilder", "subtitle": "ウィジェットを非同期に生成", "videoId": "ek8ZPdWj4Qo"},
+  { "id": "7", "title": "FadeTransition", "subtitle": "ウィジェットにフェードを加える", "videoId": "rLwWVbv3xDQ"},
+  { "id": "8", "title": "FloatingActionButton(FAB)", "subtitle": "画面右下にボタンを表示", "videoId": "2uaoEDOgk_I"},
+  { "id": "9", "title": "PageView", "subtitle": "スワイプで画面遷移", "videoId": "J1gE9xvph-A"},
+  { "id": "10", "title": "Table", "subtitle": "テーブル", "videoId": "_lbE0wsVZSw"},
+  { "id": "11", "title": "SliverAppBar", "subtitle": "スクロール動作付きのアプリバー", "videoId": "R9C5KMJKluE"},
+  { "id": "12", "title": "SliverList and SliverGrid", "subtitle": "スクロール動作付きのリストとグリッド", "videoId": "ORiTTaVY6mM"},
+  { "id": "13", "title": "FadeInImage", "subtitle": "画像ダウンロード完了までプレースホルダーの画像を表示", "videoId": "pK738Pg9cxc"},
+  { "id": "14", "title": "StreamBuilder", "subtitle": "非同期に取得するデータでウィジェットを作成", "videoId": "MkKEWHfy99Y"},
+  { "id": "15", "title": "InheritedModel", "subtitle": "親の変更を検知して再度ビルドビルドするかを判定できるウィジェット", "videoId": "ml5uefGgkaA"},
+  { "id": "16", "title": "ClipRRect", "subtitle": "画像やコンテンツの角を丸くする", "videoId": "eI43jkQkrvs"},
+  { "id": "17", "title": "Hero", "subtitle": "画面間でのアニメーション", "videoId": "Be9UH1kXFDw"},
+  { "id": "18", "title": "CustomPaint", "subtitle": "カスタマイズ可能なペイント", "videoId": "kp14Y4uHpHs"},
+  { "id": "19", "title": "Tooltip", "subtitle": "ツールチップでメッセージを表示", "videoId": "EeEfD5fI-5Q"},
+  { "id": "20", "title": "FittedBox", "subtitle": "子ウィジェットを親ウィジェット内に収める", "videoId": "T4Uehk3_wlY"},
+  { "id": "21", "title": "LayoutBuilder", "subtitle": "画面幅に合わせてレイアウトを変える", "videoId": "IYDVcriKjsw"}
 ]
